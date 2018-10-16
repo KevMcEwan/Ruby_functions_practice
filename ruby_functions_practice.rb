@@ -89,3 +89,10 @@ else
   return "inv"
 end
 end
+
+def cube_volume(length)
+  return length**3
+end
+
+def sphere_volume
+  return 
