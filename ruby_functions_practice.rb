@@ -99,5 +99,5 @@ def sphere_volume(radius)
 end
 
 def fahrenheit_to_celsius(degrees_farenheit)
-  return ((degrees_farenheit)-32) * (5/9)
+  return (((degrees_farenheit)-32.0) * (5.0/9.0)).round(4)
 end
