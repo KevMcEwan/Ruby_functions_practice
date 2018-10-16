@@ -94,5 +94,10 @@ def cube_volume(length)
   return length**3
 end
 
-def sphere_volume
-  return 
+def sphere_volume(radius)
+  return ((4.0/3.0) * Math::PI * (radius**3.0)).round(2)
+end
+
+def fahrenheit_to_celsius(degrees_farenheit)
+  return ((degrees_farenheit)-32) * (5/9)
+end
