@@ -59,3 +59,33 @@ else
   return "invalid"
 end
 end
+
+def number_to_short_month_name(number1)
+if number1 == 1
+  return "Jan"
+elsif number1 == 2
+return "Feb"
+elsif number1 == 3
+return "Mar"
+elsif number1 == 4
+return "Apr"
+elsif number1 == 5
+return "May"
+elsif number1 == 6
+return "Jun"
+elsif number1 == 7
+return "Jul"
+elsif number1 == 8
+return "Aug"
+elsif number1 == 9
+return "Sep"
+elsif number1 == 10
+return "Oct"
+elsif number1 == 11
+return "Nov"
+elsif number1 == 12
+return "Dec"
+else
+  return "inv"
+end
+end
